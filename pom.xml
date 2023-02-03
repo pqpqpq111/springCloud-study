@@ -12,6 +12,11 @@
     <!-- 总工程的pom.xml文件引入其他模块  -->
     <modules>
         <module>cloud-api-commons</module>
+        <module>cloud-provide-payment</module>
+        <module>cloud-consumer-order</module>
+        <module>cloud-eureka-server</module>
+        <module>cloud-eureka-server02</module>
+        <module>cloud-provide-payment02</module>
     </modules>
 
 
@@ -19,7 +24,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <mysql.version>5.7</mysql.version>
+        <mysql.version>5.1.47</mysql.version>
         <druid.version>1.1.10</druid.version>
         <junit.version>4.1.2</junit.version>
         <lombok.version>1.16.10</lombok.version>

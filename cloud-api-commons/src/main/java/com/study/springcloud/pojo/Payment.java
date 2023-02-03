@@ -8,7 +8,7 @@ import lombok.experimental.Accessors;
 import java.io.Serializable;
 
 //网络通信 一定要实现序列化
-//使用lombok  没有配置的童鞋要去百度查一下  jar我们导入了  需要在idea装一个插件就可以了
+//使用lombok
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
